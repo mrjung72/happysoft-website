@@ -29,7 +29,7 @@ include 'includes/header.php';
                 <div class="solution-actions">
                     <a href="#download" class="btn btn-primary">다운로드</a>
                     <a href="#documentation" class="btn btn-secondary">문서 보기</a>
-                    <a href="https://github.com/yourusername/sql2db-nodejs" class="btn btn-github" target="_blank">
+                    <a href="https://github.com/mrjung72/sql2db-nodejs" class="btn btn-github" target="_blank">
                         <span class="github-icon">📦</span> GitHub
                     </a>
                 </div>
@@ -404,7 +404,7 @@ node src/progress-cli.js monitor config/migration-queries.xml \
                         <a href="downloads/sql2db-v2.3.0.zip" class="btn btn-primary">
                             💾 ZIP 다운로드
                         </a>
-                        <a href="https://github.com/yourusername/sql2db-nodejs/releases/tag/v2.3.0" class="btn btn-secondary" target="_blank">
+                        <a href="https://github.com/mrjung72/sql2db-nodejs/releases/tag/v2.3.0" class="btn btn-secondary" target="_blank">
                             📦 GitHub 릴리즈
                         </a>
                     </div>
@@ -418,10 +418,10 @@ node src/progress-cli.js monitor config/migration-queries.xml \
                 <div class="download-content">
                     <p>GitHub에서 최신 소스 코드를 확인하고 기여할 수 있습니다.</p>
                     <div class="download-actions">
-                        <a href="https://github.com/yourusername/sql2db-nodejs" class="btn btn-github" target="_blank">
+                        <a href="https://github.com/mrjung72/sql2db-nodejs" class="btn btn-github" target="_blank">
                             📦 GitHub 저장소
                         </a>
-                        <a href="https://github.com/yourusername/sql2db-nodejs/archive/main.zip" class="btn btn-outline" target="_blank">
+                        <a href="https://github.com/mrjung72/sql2db-nodejs/archive/main.zip" class="btn btn-outline" target="_blank">
                             📋 소스 다운로드
                         </a>
                     </div>

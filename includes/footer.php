@@ -16,7 +16,7 @@
                     </p>
                     <div class="social-links">
                         <a href="mailto:sql2excel.nodejs@gmail.com" class="social-link" title="이메일">📧</a>
-                        <a href="https://github.com/yourusername" target="_blank" class="social-link" title="GitHub">📦</a>
+                        <a href="https://github.com/mrjung72" target="_blank" class="social-link" title="GitHub">📦</a>
                         <a href="https://sql2excel.com" target="_blank" class="social-link" title="웹사이트">🌐</a>
                     </div>
                 </div>

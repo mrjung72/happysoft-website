@@ -74,7 +74,7 @@
             </div>
             
             <div class="nav-actions">
-                <a href="https://github.com/yourusername" target="_blank" class="btn btn-github">
+                <a href="https://github.com/mrjung72" target="_blank" class="btn btn-github">
                     <span class="github-icon">📦</span>
                     GitHub
                 </a>
