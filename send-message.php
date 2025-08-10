@@ -161,7 +161,7 @@ function getEmailTemplate($data, $config) {
     <body>
         <div class='container'>
             <div class='header'>
-                <div class='logo'>🔧 HappySoft</div>
+                <div class='logo'>⚙️ HappySoft</div>
                 <h2 style='margin: 10px 0 0 0;'>새로운 문의가 도착했습니다</h2>
             </div>
             <div class='content'>
@@ -233,7 +233,7 @@ function getAutoReplyTemplate($data, $config) {
     <body>
         <div class='container'>
             <div class='header'>
-                <div class='logo'>🔧 HappySoft</div>
+                <div class='logo'>⚙️ HappySoft</div>
                 <h2>문의해주셔서 감사합니다!</h2>
             </div>
             <div class='content'>

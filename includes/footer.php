@@ -7,7 +7,7 @@
                 <!-- Company Info -->
                 <div class="footer-section">
                     <div class="footer-brand">
-                        <span class="brand-icon">🔧</span>
+                        <span class="brand-icon">⚙️</span>
                         <span class="brand-text">HappySoft</span>
                     </div>
                     <p class="footer-desc">

@@ -250,6 +250,11 @@ a {
 .brand-icon {
     font-size: 1.5rem;
     margin-right: 0.5rem;
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 2px 4px rgba(59, 130, 246, 0.2));
 }
 
 .nav-list {
@@ -1651,9 +1656,20 @@ a {
 .footer-brand {
     display: flex;
     align-items: center;
-    font-weight: 700;
-    font-size: 1.25rem;
     margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.footer-brand .brand-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 2px 4px rgba(59, 130, 246, 0.2));
 }
 
 .footer-desc {

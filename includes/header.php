@@ -38,7 +38,7 @@
         <div class="nav-container">
             <div class="nav-brand">
                 <a href="index.php">
-                    <span class="brand-icon">🔧</span>
+                    <span class="brand-icon">⚙️</span>
                     <span class="brand-text">HappySoft</span>
                 </a>
             </div>
