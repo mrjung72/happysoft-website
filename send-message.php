@@ -10,9 +10,9 @@ session_start();
 // Configuration
 $config = [
     'to_email' => 'sql2excel.nodejs@gmail.com',
-    'from_email' => 'noreply@sql2excel.com',
-    'site_name' => 'Developer Solutions',
-    'admin_email' => 'admin@sql2excel.com',
+    'from_email' => 'noreply@happysoft.com',
+    'site_name' => 'HappySoft',
+    'admin_email' => 'admin@happysoft.com',
     'max_file_size' => 5 * 1024 * 1024, // 5MB
     'allowed_extensions' => ['txt', 'pdf', 'doc', 'docx'],
     'rate_limit' => [
@@ -161,7 +161,7 @@ function getEmailTemplate($data, $config) {
     <body>
         <div class='container'>
             <div class='header'>
-                <div class='logo'>🔧 Developer Solutions</div>
+                <div class='logo'>🔧 HappySoft</div>
                 <h2 style='margin: 10px 0 0 0;'>새로운 문의가 도착했습니다</h2>
             </div>
             <div class='content'>
@@ -233,13 +233,13 @@ function getAutoReplyTemplate($data, $config) {
     <body>
         <div class='container'>
             <div class='header'>
-                <div class='logo'>🔧 Developer Solutions</div>
+                <div class='logo'>🔧 HappySoft</div>
                 <h2>문의해주셔서 감사합니다!</h2>
             </div>
             <div class='content'>
                 <p><strong>" . htmlspecialchars($data['name']) . "</strong>님, 안녕하세요!</p>
                 
-                <p>Developer Solutions에 문의해주셔서 감사합니다. 귀하의 메시지를 잘 받았으며, 영업일 기준 24시간 내에 상세한 답변을 드리겠습니다.</p>
+                <p>HappySoft에 문의해주셔서 감사합니다. 귀하의 메시지를 잘 받았으며, 영업일 기준 24시간 내에 상세한 답변을 드리겠습니다.</p>
                 
                 <div class='highlight'>
                     <h3>💡 빠른 정보 확인</h3>
@@ -268,13 +268,13 @@ function getAutoReplyTemplate($data, $config) {
                     <h3>📞 추가 연락처</h3>
                     <p>
                         <strong>이메일</strong>: sql2excel.nodejs@gmail.com<br>
-                        <strong>웹사이트</strong>: sql2excel.com<br>
+                        <strong>웹사이트</strong>: happysoft.com<br>
                         <strong>업무 시간</strong>: 평일 09:00 - 18:00 (KST)
                     </p>
                 </div>
                 
                 <p>감사합니다.<br>
-                <strong>Developer Solutions 팀</strong></p>
+                <strong>HappySoft 팀</strong></p>
             </div>
             <div class='footer'>
                 <p>이 메시지는 자동으로 전송되었습니다. 직접 회신하지 마세요.</p>

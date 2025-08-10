@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= isset($pageTitle) ? $pageTitle : '개발자 솔루션 포트폴리오' ?></title>
+    <title><?= isset($pageTitle) ? $pageTitle : 'HappySoft - 개발자 솔루션 포트폴리오' ?></title>
     
     <!-- Meta Tags -->
     <meta name="description" content="SQL 데이터 마이그레이션, 엑셀 생성, 유틸리티 도구 등 개발자를 위한 실용적인 솔루션을 제공합니다.">
     <meta name="keywords" content="SQL, 데이터마이그레이션, 엑셀생성, Node.js, Vue.js, 개발도구, 데이터베이스">
-    <meta name="author" content="Developer Solutions">
+    <meta name="author" content="HappySoft">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="<?= isset($pageTitle) ? $pageTitle : '개발자 솔루션 포트폴리오' ?>">
+    <meta property="og:title" content="<?= isset($pageTitle) ? $pageTitle : 'HappySoft - 개발자 솔루션 포트폴리오' ?>">
     <meta property="og:description" content="실무에서 검증된 데이터 처리 및 개발 도구 솔루션">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sql2excel.com">
+    <meta property="og:url" content="https://happysoft.com">
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/main.css">
@@ -39,7 +39,7 @@
             <div class="nav-brand">
                 <a href="index.php">
                     <span class="brand-icon">🔧</span>
-                    <span class="brand-text">Developer Solutions</span>
+                    <span class="brand-text">HappySoft</span>
                 </a>
             </div>
             

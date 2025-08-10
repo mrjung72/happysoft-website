@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "개발자 솔루션 포트폴리오";
+$pageTitle = "HappySoft - 개발자 솔루션 포트폴리오";
 $currentPage = "home";
 include 'includes/header.php';
 ?>

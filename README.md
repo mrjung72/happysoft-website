@@ -1,4 +1,4 @@
-# Developer Solutions 웹사이트
+# HappySoft 웹사이트
 
 개발자를 위한 실용적인 솔루션들을 소개하는 전문 웹사이트입니다.
 
@@ -63,7 +63,7 @@ chmod 644 includes/*.php
 $config = [
     'to_email' => 'your-email@example.com',        // 수신 이메일
     'from_email' => 'noreply@your-domain.com',     // 발신 이메일
-    'site_name' => 'Developer Solutions',          // 사이트명
+    'site_name' => 'HappySoft',                    // 사이트명
     // ... 기타 설정
 ];
 ```
@@ -132,7 +132,7 @@ solutions-website/
 <div class="nav-brand">
     <a href="index.php">
         <span class="brand-icon">🔧</span>
-        <span class="brand-text">Developer Solutions</span>
+        <span class="brand-text">HappySoft</span>
     </a>
 </div>
 ```

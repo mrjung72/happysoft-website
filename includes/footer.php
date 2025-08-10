@@ -8,7 +8,7 @@
                 <div class="footer-section">
                     <div class="footer-brand">
                         <span class="brand-icon">🔧</span>
-                        <span class="brand-text">Developer Solutions</span>
+                        <span class="brand-text">HappySoft</span>
                     </div>
                     <p class="footer-desc">
                         개발자를 위한 실용적이고 검증된 솔루션을 제공합니다.<br>
@@ -17,7 +17,7 @@
                     <div class="social-links">
                         <a href="mailto:sql2excel.nodejs@gmail.com" class="social-link" title="이메일">📧</a>
                         <a href="https://github.com/mrjung72" target="_blank" class="social-link" title="GitHub">📦</a>
-                        <a href="https://sql2excel.com" target="_blank" class="social-link" title="웹사이트">🌐</a>
+                        <a href="https://happysoft.com" target="_blank" class="social-link" title="웹사이트">🌐</a>
                     </div>
                 </div>
 
@@ -71,7 +71,7 @@
             <div class="footer-bottom">
                 <div class="footer-bottom-content">
                     <div class="copyright">
-                        <p>&copy; <?= date('Y') ?> Developer Solutions. All rights reserved.</p>
+                        <p>&copy; <?= date('Y') ?> HappySoft. All rights reserved.</p>
                         <p class="version-info">
                             SQL2DB v2.3.0 | SQL2Excel v1.2.1 | 
                             <span class="update-date">최종 업데이트: <?= date('Y-m-d') ?></span>
