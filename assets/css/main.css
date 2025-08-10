@@ -6,7 +6,7 @@
     --primary-color: #2563eb;
     --primary-hover: #1d4ed8;
     --secondary-color: #64748b;
-    --accent-color: #f59e0b;
+    --accent-color: #3b82f6;
     --success-color: #10b981;
     --warning-color: #f59e0b;
     --error-color: #ef4444;
@@ -16,9 +16,9 @@
     --bg-secondary: #f8fafc;
     --bg-dark: #0f172a;
     --bg-card: #ffffff;
-    --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --hero-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --hero-gradient-modern: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --bg-gradient: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    --hero-gradient: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 50%, #1e40af 100%);
+    --hero-gradient-modern: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 50%, #1e40af 100%);
     
     /* Text Colors */
     --text-primary: #1e293b;
@@ -182,7 +182,7 @@ a {
 }
 
 .highlight {
-    background: var(--bg-gradient);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -361,7 +361,7 @@ a {
    ========================================================================== */
 .hero-section {
     padding: 8rem 0 6rem;
-    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 50%, #1e40af 100%);
     color: var(--text-white);
     position: relative;
     overflow: hidden;
@@ -378,9 +378,9 @@ a {
     right: 0;
     bottom: 0;
     background: 
-        radial-gradient(circle at 20% 80%, rgba(139, 92, 246, 0.4) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(236, 72, 153, 0.4) 0%, transparent 50%),
-        radial-gradient(circle at 40% 40%, rgba(59, 130, 246, 0.3) 0%, transparent 50%);
+        radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.25) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(99, 102, 241, 0.2) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(14, 165, 233, 0.15) 0%, transparent 50%);
     animation: float 6s ease-in-out infinite;
 }
 
@@ -426,7 +426,7 @@ a {
     margin-bottom: 1.5rem;
     line-height: 1.1;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #e2e8f0 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -460,28 +460,28 @@ a {
 
 .hero-buttons .btn-primary {
     background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
-    color: #4f46e5;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: #3b82f6;
+    border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .hero-buttons .btn-primary:hover {
     background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
 }
 
 .hero-buttons .btn-secondary {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.15);
     color: var(--text-white);
     border: 2px solid rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
 }
 
 .hero-buttons .btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.4);
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.15);
 }
 
 .hero-image {
@@ -535,7 +535,7 @@ a {
 }
 .code-line:nth-child(2) { 
     animation-delay: 1.5s; 
-    color: #a78bfa;
+    color: #a3bffa;
 }
 .code-line:nth-child(3) { 
     animation-delay: 2.5s; 
@@ -552,9 +552,10 @@ a {
 .hero-section .floating-element {
     position: absolute;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
     animation: float 6s ease-in-out infinite;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .hero-section .floating-element:nth-child(1) {
@@ -563,6 +564,8 @@ a {
     top: 20%;
     left: 10%;
     animation-delay: 0s;
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.25);
 }
 
 .hero-section .floating-element:nth-child(2) {
@@ -571,6 +574,8 @@ a {
     top: 60%;
     right: 15%;
     animation-delay: 2s;
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
 }
 
 .hero-section .floating-element:nth-child(3) {
@@ -579,6 +584,8 @@ a {
     bottom: 20%;
     left: 20%;
     animation-delay: 4s;
+    background: rgba(255, 255, 255, 0.13);
+    border-color: rgba(255, 255, 255, 0.22);
 }
 
 /* ==========================================================================
