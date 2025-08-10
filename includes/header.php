@@ -14,7 +14,7 @@
     <meta property="og:title" content="<?= isset($pageTitle) ? $pageTitle : 'HappySoft - 개발자 솔루션 포트폴리오' ?>">
     <meta property="og:description" content="실무에서 검증된 데이터 처리 및 개발 도구 솔루션">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://happysoft.com">
+    <meta property="og:url" content="https://happysoft.kr">
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/main.css">

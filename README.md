@@ -256,8 +256,8 @@ Header always set X-XSS-Protection "1; mode=block"
 
 ## 📞 지원
 
-- **이메일**: sql2excel.nodejs@gmail.com
-- **웹사이트**: sql2excel.com
+- **이메일**: happysoftinfodesk@gmail.com
+- **웹사이트**: happysoft.kr
 
 ---
 

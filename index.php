@@ -272,14 +272,14 @@ include 'includes/header.php';
                     <div class="contact-icon">📧</div>
                     <div>
                         <strong>이메일</strong><br>
-                        sql2excel.nodejs@gmail.com
+                        happysoftinfodesk@gmail.com
                     </div>
                 </div>
                 <div class="contact-item">
                     <div class="contact-icon">🌐</div>
                     <div>
                         <strong>웹사이트</strong><br>
-                        sql2excel.com
+                        happysoft.kr
                     </div>
                 </div>
                 <div class="contact-item">

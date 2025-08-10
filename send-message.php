@@ -9,10 +9,10 @@ session_start();
 
 // Configuration
 $config = [
-    'to_email' => 'sql2excel.nodejs@gmail.com',
-    'from_email' => 'noreply@happysoft.com',
+    'to_email' => 'happysoftinfodesk@gmail.com',
+    'from_email' => 'noreply@happysoft.kr',
     'site_name' => 'HappySoft',
-    'admin_email' => 'admin@happysoft.com',
+    'admin_email' => 'admin@happysoft.kr',
     'max_file_size' => 5 * 1024 * 1024, // 5MB
     'allowed_extensions' => ['txt', 'pdf', 'doc', 'docx'],
     'rate_limit' => [
@@ -267,9 +267,8 @@ function getAutoReplyTemplate($data, $config) {
                 <div class='highlight'>
                     <h3>📞 추가 연락처</h3>
                     <p>
-                        <strong>이메일</strong>: sql2excel.nodejs@gmail.com<br>
-                        <strong>웹사이트</strong>: happysoft.com<br>
-                        <strong>업무 시간</strong>: 평일 09:00 - 18:00 (KST)
+                        <strong>이메일</strong>: happysoftinfodesk@gmail.com<br>
+                        <strong>웹사이트</strong>: happysoft.kr<br>
                     </p>
                 </div>
                 

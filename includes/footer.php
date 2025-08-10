@@ -15,9 +15,9 @@
                         데이터 처리부터 웹 개발까지, 업무 효율성을 높이는 도구들을 만나보세요.
                     </p>
                     <div class="social-links">
-                        <a href="mailto:sql2excel.nodejs@gmail.com" class="social-link" title="이메일">📧</a>
+                        <a href="mailto:happysoftinfodesk@gmail.com" class="social-link" title="이메일">📧</a>
                         <a href="https://github.com/mrjung72" target="_blank" class="social-link" title="GitHub">📦</a>
-                        <a href="https://happysoft.com" target="_blank" class="social-link" title="웹사이트">🌐</a>
+                        <a href="https://happysoft.kr" target="_blank" class="social-link" title="웹사이트">🌐</a>
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@
                     <div class="contact-info">
                         <p class="contact-item">
                             <strong>📧 이메일</strong><br>
-                            <a href="mailto:sql2excel.nodejs@gmail.com">sql2excel.nodejs@gmail.com</a>
+                            <a href="mailto:happysoftinfodesk@gmail.com">happysoftinfodesk@gmail.com</a>
                         </p>
                         <p class="contact-item">
                             <strong>🕐 업무 시간</strong><br>
