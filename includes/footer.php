@@ -49,21 +49,11 @@
                 <div class="footer-section">
                     <h3 class="footer-title">지원</h3>
                     <ul class="footer-links">
-                        <li><a href="#contact">문의하기</a></li>
+                        <li><a href="index.php#contact">문의하기</a></li>
                         <li><a href="support.php">기술 지원</a></li>
                         <li><a href="consulting.php">컨설팅</a></li>
                         <li><a href="custom-development.php">커스텀 개발</a></li>
                     </ul>
-                    <div class="contact-info">
-                        <p class="contact-item">
-                            <strong>📧 이메일</strong><br>
-                            <a href="mailto:happysoftinfodesk@gmail.com">happysoftinfodesk@gmail.com</a>
-                        </p>
-                        <p class="contact-item">
-                            <strong>🕐 업무 시간</strong><br>
-                            평일 09:00 - 18:00 (KST)
-                        </p>
-                    </div>
                 </div>
             </div>
 

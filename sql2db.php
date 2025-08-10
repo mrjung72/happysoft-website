@@ -488,25 +488,12 @@ node src/progress-cli.js monitor config/migration-queries.xml \
             </div>
             
             <div class="doc-card">
-                <div class="doc-icon">🔧</div>
-                <h3>API 참조</h3>
-                <p>모든 설정 옵션과 명령어에 대한 상세 참조</p>
-                <a href="docs/sql2db-api-reference.pdf" class="btn btn-outline">API 문서</a>
-            </div>
-            
-            <div class="doc-card">
                 <div class="doc-icon">💡</div>
                 <h3>예제 모음</h3>
                 <p>실제 사용 사례와 설정 예제들</p>
                 <a href="docs/sql2db-examples.zip" class="btn btn-outline">예제 다운로드</a>
             </div>
             
-            <div class="doc-card">
-                <div class="doc-icon">❓</div>
-                <h3>FAQ</h3>
-                <p>자주 묻는 질문과 문제 해결 방법</p>
-                <a href="docs/sql2db-faq.pdf" class="btn btn-outline">FAQ 보기</a>
-            </div>
         </div>
     </div>
 </section>

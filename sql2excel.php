@@ -687,25 +687,12 @@ npm run help</code></pre>
             </div>
             
             <div class="doc-card">
-                <div class="doc-icon">🎨</div>
-                <h3>스타일 가이드</h3>
-                <p>엑셀 스타일링의 모든 옵션과 예제</p>
-                <a href="docs/sql2excel-styling-guide.pdf" class="btn btn-outline">스타일 가이드</a>
-            </div>
-            
-            <div class="doc-card">
                 <div class="doc-icon">💡</div>
                 <h3>템플릿 모음</h3>
                 <p>다양한 업무용 엑셀 템플릿과 설정 예제</p>
                 <a href="docs/sql2excel-templates.zip" class="btn btn-outline">템플릿 다운로드</a>
             </div>
             
-            <div class="doc-card">
-                <div class="doc-icon">❓</div>
-                <h3>FAQ</h3>
-                <p>자주 묻는 질문과 문제 해결 방법</p>
-                <a href="docs/sql2excel-faq.pdf" class="btn btn-outline">FAQ 보기</a>
-            </div>
         </div>
     </div>
 </section>
