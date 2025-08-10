@@ -6,6 +6,11 @@ include 'includes/header.php';
 
 <!-- Hero Section -->
 <section class="hero-section">
+    <!-- Floating elements for visual interest -->
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+    
     <div class="container">
         <div class="hero-content">
             <h1 class="hero-title">개발자를 위한 <span class="highlight">실용적 솔루션</span></h1>
