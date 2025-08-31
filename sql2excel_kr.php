@@ -11,10 +11,10 @@ include 'includes/header_kr.php';
             <div class="solution-hero-text">
                 <div class="solution-badge">📊 엑셀 생성 도구</div>
                 <h1>SQL2Excel <span class="version">v1.2.2</span></h1>
-                <p class="solution-tagline">SQL 쿼리 결과를 고급 스타일링과 템플릿이 적용된 멀티 시트 엑셀 파일로 변환하는 전문 도구</p>
+                <p class="solution-tagline">SQL 쿼리 결과를 고급 스타일링과 템플릿이 적용된 멀티 시트 엑셀 파일로 변환하는 전문 도구 (향상된 동적 변수 지원)</p>
                 <div class="solution-stats">
                     <div class="stat">
-                        <div class="stat-number">7가지</div>
+                        <div class="stat-number">7</div>
                         <div class="stat-label">템플릿 스타일</div>
                     </div>
                     <div class="stat">
@@ -100,7 +100,7 @@ include 'includes/header_kr.php';
                 <ul class="feature-details">
                     <li>column_identified 및 key_value_pairs 타입</li>
                     <li>실행 전 변수 처리 및 캐싱</li>
-                    <li>디버그 모드로 변수 치환 확인</li>
+                    <li>변수 치환 검증을 위한 디버그 모드</li>
                     <li>오류 처리 및 빈 결과 대체</li>
                 </ul>
             </div>
@@ -108,22 +108,22 @@ include 'includes/header_kr.php';
             <div class="feature-card">
                 <div class="feature-icon">📋</div>
                 <h3>별도 목차 생성</h3>
-                <p>독립적인 목차 Excel 파일을 생성하여 보고서 관리 및 공유 효율성 향상</p>
+                <p>향상된 보고서 관리와 공유를 위한 독립적인 목차 엑셀 파일 생성</p>
                 <ul class="feature-details">
-                    <li>별도 목차 파일 자동 생성</li>
-                    <li>시트별 데이터 건수 표시</li>
-                    <li>타임스탬프가 포함된 파일명</li>
-                    <li>XML/CLI 옵션으로 제어</li>
+                    <li>자동 별도 목차 파일 생성</li>
+                    <li>시트별 레코드 수 표시</li>
+                    <li>타임스탬프 파일명</li>
+                    <li>XML/CLI 옵션 제어</li>
                 </ul>
             </div>
             
             <div class="feature-card">
                 <div class="feature-icon">🔍</div>
                 <h3>파일 검증 시스템</h3>
-                <p>파일명 자동 검증 및 한글 문자 경고로 안정적인 실행 환경 제공</p>
+                <p>안정적인 실행 환경을 위한 자동 파일명 검증 및 한글 문자 경고</p>
                 <ul class="feature-details">
                     <li>한글 파일명 자동 감지 및 경고</li>
-                    <li>영문 파일명 권장사항 제공</li>
+                    <li>영문 파일명 권장</li>
                     <li>파일 경로 유효성 검사</li>
                     <li>사용자 친화적 오류 메시지</li>
                 </ul>
@@ -132,24 +132,24 @@ include 'includes/header_kr.php';
             <div class="feature-card">
                 <div class="feature-icon">📊</div>
                 <h3>멀티 시트 엑셀 생성</h3>
-                <p>여러 SQL 쿼리 결과를 하나의 엑셀 파일에 시트별로 구성하여 체계적인 보고서 생성</p>
+                <p>여러 SQL 쿼리 결과를 단일 엑셀 파일의 별도 시트로 체계적인 보고서 구성</p>
                 <ul class="feature-details">
                     <li>시트별 독립적인 쿼리 실행</li>
-                    <li>시트 사용 여부 개별 설정</li>
-                    <li>동적 시트명 (변수 활용)</li>
-                    <li>최대 조회 건수 제한 기능</li>
+                    <li>개별 시트 활성화/비활성화 설정</li>
+                    <li>동적 시트명 (변수 지원)</li>
+                    <li>쿼리별 최대 레코드 제한</li>
                 </ul>
             </div>
             
             <div class="feature-card">
                 <div class="feature-icon">🔗</div>
-                <h3>다중 데이터베이스 연결</h3>
-                <p>시트별로 서로 다른 데이터베이스에 연결하여 여러 시스템의 데이터를 통합 보고서로 생성</p>
+                <h3>다중 데이터베이스 지원</h3>
+                <p>다양한 데이터베이스 시스템에 연결하여 서로 다른 소스의 쿼리 실행</p>
                 <ul class="feature-details">
-                    <li>시트별 독립적인 DB 연결</li>
-                    <li>효율적인 연결 풀 관리</li>
-                    <li>DB 출처 자동 표시</li>
-                    <li>연결 상태 모니터링</li>
+                    <li>SQL Server, MySQL, PostgreSQL</li>
+                    <li>연결 풀링</li>
+                    <li>트랜잭션 지원</li>
+                    <li>오류 처리</li>
                 </ul>
             </div>
         </div>
@@ -330,75 +330,143 @@ include 'includes/header_kr.php';
         <h2 class="section-title">기술 사양</h2>
         <div class="specs-grid">
             <div class="spec-category">
-                <h3>지원 형식</h3>
+                <h3>플랫폼 및 런타임</h3>
                 <div class="spec-items">
                     <div class="spec-item">
-                        <span class="spec-label">설정 파일</span>
-                        <span class="spec-value">XML, JSON</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">출력 형식</span>
-                        <span class="spec-value">Excel (.xlsx)</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">엑셀 버전</span>
-                        <span class="spec-value">Excel 2007+</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="spec-category">
-                <h3>데이터베이스</h3>
-                <div class="spec-items">
-                    <div class="spec-item">
-                        <span class="spec-label">지원 DB</span>
-                        <span class="spec-value">SQL Server 2012+</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">동시 연결</span>
-                        <span class="spec-value">다중 DB 지원</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">연결 방식</span>
-                        <span class="spec-value">Connection Pool</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="spec-category">
-                <h3>성능</h3>
-                <div class="spec-items">
-                    <div class="spec-item">
-                        <span class="spec-label">처리 속도</span>
-                        <span class="spec-value">대용량 데이터 지원</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">메모리 효율</span>
-                        <span class="spec-value">스트리밍 처리</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">파일 크기</span>
-                        <span class="spec-value">무제한</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="spec-category">
-                <h3>플랫폼</h3>
-                <div class="spec-items">
-                    <div class="spec-item">
-                        <span class="spec-label">런타임</span>
+                        <span class="spec-label">플랫폼</span>
                         <span class="spec-value">Node.js 16.0+</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">엑셀 라이브러리</span>
+                        <span class="spec-value">ExcelJS</span>
                     </div>
                     <div class="spec-item">
                         <span class="spec-label">운영체제</span>
                         <span class="spec-value">Windows, Linux, macOS</span>
                     </div>
                     <div class="spec-item">
-                        <span class="spec-label">라이브러리</span>
-                        <span class="spec-value">ExcelJS, MSSQL</span>
+                        <span class="spec-label">아키텍처</span>
+                        <span class="spec-value">크로스 플랫폼</span>
                     </div>
                 </div>
+            </div>
+            
+            <div class="spec-category">
+                <h3>엑셀 생성</h3>
+                <div class="spec-items">
+                    <div class="spec-item">
+                        <span class="spec-label">템플릿 스타일</span>
+                        <span class="spec-value">7가지 사전 정의 스타일</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">멀티 시트 지원</span>
+                        <span class="spec-value">파일당 무제한 시트</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">파일 검증</span>
+                        <span class="spec-value">한글 문자 감지</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">별도 목차</span>
+                        <span class="spec-value">독립적인 목차 파일</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="spec-category">
+                <h3>구성 및 변수</h3>
+                <div class="spec-items">
+                    <div class="spec-item">
+                        <span class="spec-label">형식</span>
+                        <span class="spec-value">XML, JSON</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">검증</span>
+                        <span class="spec-value">내장 구성 검증</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">동적 변수</span>
+                        <span class="spec-value">실시간 데이터 추출</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">CLI 인터페이스</span>
+                        <span class="spec-value">명령줄 실행</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="spec-category">
+                <h3>데이터베이스 지원</h3>
+                <div class="spec-items">
+                    <div class="spec-item">
+                        <span class="spec-label">SQL Server</span>
+                        <span class="spec-value">암호화 포함 전체 지원</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">MySQL</span>
+                        <span class="spec-value">완전한 호환성</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">PostgreSQL</span>
+                        <span class="spec-value">전체 기능 지원</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">연결 풀링</span>
+                        <span class="spec-value">최적화된 성능</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Use Cases -->
+<section class="use-cases">
+    <div class="container">
+        <h2 class="section-title">사용 사례</h2>
+        <div class="use-cases-grid">
+            <div class="use-case-card">
+                <div class="use-case-icon">📊</div>
+                <h3>비즈니스 보고서</h3>
+                <p>여러 데이터 소스와 전문적인 스타일링을 통한 포괄적인 비즈니스 보고서 생성</p>
+                <ul>
+                    <li>템플릿이 적용된 매출 및 수익 보고서</li>
+                    <li>동적 변수가 적용된 고객 분석</li>
+                    <li>멀티 시트가 적용된 성과 대시보드</li>
+                </ul>
+            </div>
+            
+            <div class="use-case-card">
+                <div class="use-case-icon">📈</div>
+                <h3>데이터 분석</h3>
+                <p>향상된 포맷팅을 통해 원시 데이터베이스 데이터를 구조화된 엑셀 파일로 변환하여 분석</p>
+                <ul>
+                    <li>집계가 적용된 통계 분석</li>
+                    <li>차트가 적용된 트렌드 식별</li>
+                    <li>커스텀 스타일이 적용된 데이터 시각화</li>
+                </ul>
+            </div>
+            
+            <div class="use-case-card">
+                <div class="use-case-icon">📋</div>
+                <h3>문서화 및 참조</h3>
+                <p>목차가 포함된 데이터베이스 쿼리에서 문서 및 참조 자료 생성</p>
+                <ul>
+                    <li>별도 목차가 적용된 데이터 사전</li>
+                    <li>검증이 적용된 참조 테이블</li>
+                    <li>파일 검증이 적용된 감사 보고서</li>
+                </ul>
+            </div>
+            
+            <div class="use-case-card">
+                <div class="use-case-icon">🔄</div>
+                <h3>자동화된 보고서</h3>
+                <p>예약된 실행과 동적 콘텐츠를 통한 정기 보고서 생성 자동화</p>
+                <ul>
+                    <li>변수가 적용된 일일/주간 보고서</li>
+                    <li>CLI가 적용된 자동화된 배포</li>
+                    <li>스타일이 적용된 템플릿 기반 생성</li>
+                </ul>
             </div>
         </div>
     </div>
