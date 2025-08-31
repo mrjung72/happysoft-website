@@ -11,19 +11,19 @@ include 'includes/header.php';
             <div class="solution-hero-text">
                 <div class="solution-badge">🔄 Data Migration</div>
                 <h1>SQL2DB <span class="version">v2.3.0</span></h1>
-                <p class="solution-tagline">Professional SQL data migration tool with real-time monitoring and advanced variable system</p>
+                <p class="solution-tagline">Professional SQL data migration tool with real-time monitoring, advanced variable system, and intelligent SQL processing</p>
                 <div class="solution-stats">
                     <div class="stat">
-                        <div class="stat-number">100+</div>
-                        <div class="stat-label">Migration Features</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number">Real-time</div>
-                        <div class="stat-label">Progress Monitoring</div>
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Advanced Features</div>
                     </div>
                     <div class="stat">
                         <div class="stat-number">5</div>
                         <div class="stat-label">Display Modes</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">Real-time</div>
+                        <div class="stat-label">Progress Monitoring</div>
                     </div>
                 </div>
                 <div class="solution-actions">
@@ -50,6 +50,7 @@ include 'includes/header.php';
                         <div class="terminal-line">📊 Progress: [████████████████████] 100% (1,250/1,250)</div>
                         <div class="terminal-line">⏱️  Duration: 00:02:34 | Avg Speed: 8.1 rows/sec</div>
                         <div class="terminal-line">✅ Migration completed! Total 1,250 records processed</div>
+                        <div class="terminal-line">🔄 Press 'r' to resume, 's' for stats, 'd' for details</div>
                     </div>
                 </div>
             </div>
@@ -63,7 +64,7 @@ include 'includes/header.php';
         <h2 class="section-title">Key Features</h2>
         <div class="features-grid">
             <div class="feature-card featured">
-                <div class="feature-icon">📊</div>
+                <div class="feature-icon">🖥️</div>
                 <h3>Real-time Interactive Monitoring</h3>
                 <p>Intuitive monitoring of migration progress through 5 display modes with keyboard interaction and real-time charts</p>
                 <ul class="feature-details">
@@ -74,58 +75,63 @@ include 'includes/header.php';
                 </ul>
             </div>
             
-            <div class="feature-card">
-                <div class="feature-icon">🔧</div>
-                <h3>SELECT * Auto Expansion</h3>
-                <p>Automatically expand SELECT * statements to actual column names in pre/post-processing scripts for explicit and safe query execution</p>
+            <div class="feature-card featured">
+                <div class="feature-icon">🔄</div>
+                <h3>Intelligent SQL Processing</h3>
+                <p>Advanced SQL parsing with automatic SELECT * expansion and pre/post-processing column override</p>
                 <ul class="feature-details">
-                    <li>Table alias support</li>
-                    <li>JOIN, WHERE, GROUP BY clause consideration</li>
-                    <li>Feature control through environment variables</li>
+                    <li>SELECT * auto-expansion to actual column names</li>
+                    <li>Table alias and JOIN clause support</li>
+                    <li>Pre/post-processing column override automation</li>
+                    <li>INSERT/UPDATE statement auto-enhancement</li>
                 </ul>
             </div>
             
             <div class="feature-card">
-                <div class="feature-icon">⚙️</div>
-                <h3>Pre/Post-processing Column Override</h3>
-                <p>Automatically apply column override settings to INSERT and UPDATE statements to automate data transformation and enrichment</p>
+                <div class="feature-icon">📊</div>
+                <h3>Enhanced Dynamic Variables</h3>
+                <p>Extract values from database in real-time with advanced processing and key-value pairs support</p>
                 <ul class="feature-details">
-                    <li>INSERT VALUES and INSERT SELECT statement support</li>
-                    <li>UPDATE SET clause auto addition/modification</li>
-                    <li>SQL functions and expressions support</li>
-                </ul>
-            </div>
-            
-            <div class="feature-card">
-                <div class="feature-icon">📝</div>
-                <h3>Advanced SQL Parsing</h3>
-                <p>Intelligent SQL parsing with comment processing and complex statement support for robust migration execution</p>
-                <ul class="feature-details">
-                    <li>Multi-line comment support</li>
-                    <li>Complex SQL statement parsing</li>
-                    <li>Error handling and recovery</li>
+                    <li>column_identified and key_value_pairs types</li>
+                    <li>Pre-execution variable processing and caching</li>
+                    <li>Debug mode for variable substitution verification</li>
+                    <li>Error handling and empty result replacement</li>
                 </ul>
             </div>
             
             <div class="feature-card">
                 <div class="feature-icon">🔄</div>
-                <h3>Dynamic Variables System</h3>
-                <p>Extract and utilize data at runtime with flexible variable types for dynamic query generation</p>
+                <h3>Resume Migration</h3>
+                <p>Resume interrupted migrations from the last completed point with progress tracking</p>
                 <ul class="feature-details">
-                    <li>Column-identified and key-value pair types</li>
-                    <li>Runtime data extraction</li>
-                    <li>Variable substitution in queries</li>
+                    <li>Automatic progress tracking and checkpointing</li>
+                    <li>Network error recovery</li>
+                    <li>Migration ID-based resume functionality</li>
+                    <li>Progress verification before resume</li>
                 </ul>
             </div>
             
             <div class="feature-card">
-                <div class="feature-icon">🛡️</div>
-                <h3>Transaction Management</h3>
-                <p>Comprehensive transaction support with automatic rollback and error recovery for data consistency</p>
+                <div class="feature-icon">⚙️</div>
+                <h3>Flexible Configuration</h3>
+                <p>XML and JSON-based configuration with environment variable support and validation</p>
                 <ul class="feature-details">
-                    <li>Automatic transaction management</li>
-                    <li>Rollback on error</li>
-                    <li>Isolation level configuration</li>
+                    <li>XML and JSON configuration formats</li>
+                    <li>Environment variable substitution</li>
+                    <li>Built-in configuration validation</li>
+                    <li>Global and query-specific settings</li>
+                </ul>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🚦</div>
+                <h3>Transaction Support</h3>
+                <p>Ensure data consistency with transaction support and batch processing</p>
+                <ul class="feature-details">
+                    <li>Configurable batch sizes</li>
+                    <li>Transaction rollback on errors</li>
+                    <li>Delete before insert options</li>
+                    <li>Data integrity protection</li>
                 </ul>
             </div>
         </div>
@@ -148,22 +154,32 @@ include 'includes/header.php';
             </div>
             
             <div class="spec-category">
-                <h3>Performance</h3>
+                <h3>Performance & Monitoring</h3>
                 <ul>
                     <li><strong>Batch Size:</strong> Configurable (default: 1000)</li>
                     <li><strong>Memory Usage:</strong> Optimized for large datasets</li>
-                    <li><strong>Connection Pool:</strong> Configurable pool management</li>
-                    <li><strong>Monitoring:</strong> Real-time performance metrics</li>
+                    <li><strong>Display Modes:</strong> 5 interactive monitoring modes</li>
+                    <li><strong>Progress Tracking:</strong> Real-time with resume capability</li>
                 </ul>
             </div>
             
             <div class="spec-category">
-                <h3>Configuration</h3>
+                <h3>Configuration & Variables</h3>
                 <ul>
                     <li><strong>Format:</strong> XML, JSON</li>
                     <li><strong>Validation:</strong> Built-in configuration validation</li>
                     <li><strong>Environment:</strong> Environment variable support</li>
-                    <li><strong>Logging:</strong> 5-level logging system</li>
+                    <li><strong>Dynamic Variables:</strong> Real-time data extraction</li>
+                </ul>
+            </div>
+            
+            <div class="spec-category">
+                <h3>SQL Processing</h3>
+                <ul>
+                    <li><strong>SELECT * Expansion:</strong> Automatic column name resolution</li>
+                    <li><strong>Pre/Post Processing:</strong> Column override automation</li>
+                    <li><strong>Transaction Support:</strong> Configurable batch processing</li>
+                    <li><strong>Error Handling:</strong> Comprehensive error recovery</li>
                 </ul>
             </div>
             

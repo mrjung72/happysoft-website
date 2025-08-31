@@ -11,11 +11,11 @@ include 'includes/header.php';
             <div class="solution-hero-text">
                 <div class="solution-badge">📊 Excel Generation Tool</div>
                 <h1>SQL2Excel <span class="version">v1.2.2</span></h1>
-                <p class="solution-tagline">Professional tool for converting SQL query results into advanced styled and templated multi-sheet Excel files</p>
+                <p class="solution-tagline">Professional tool for converting SQL query results into advanced styled and templated multi-sheet Excel files with enhanced dynamic variables</p>
                 <div class="solution-stats">
                     <div class="stat">
-                        <div class="stat-number">7 Template</div>
-                        <div class="stat-label">Styles</div>
+                        <div class="stat-number">7</div>
+                        <div class="stat-label">Template Styles</div>
                     </div>
                     <div class="stat">
                         <div class="stat-number">Enhanced</div>
@@ -152,10 +152,6 @@ include 'includes/header.php';
                     <li>Error handling</li>
                 </ul>
             </div>
-                    <li>Statistical summaries</li>
-                    <li>Custom aggregations</li>
-                </ul>
-            </div>
         </div>
     </div>
 </section>
@@ -168,7 +164,7 @@ include 'includes/header.php';
             <div class="spec-category">
                 <h3>Platform & Runtime</h3>
                 <ul>
-                    <li><strong>Platform:</strong> Node.js 14.0+</li>
+                    <li><strong>Platform:</strong> Node.js 16.0+</li>
                     <li><strong>Excel Library:</strong> ExcelJS</li>
                     <li><strong>OS Support:</strong> Windows, Linux, macOS</li>
                     <li><strong>Architecture:</strong> Cross-platform</li>
@@ -176,32 +172,32 @@ include 'includes/header.php';
             </div>
             
             <div class="spec-category">
-                <h3>Performance</h3>
+                <h3>Excel Generation</h3>
                 <ul>
-                    <li><strong>Memory Usage:</strong> Optimized for large datasets</li>
-                    <li><strong>Processing Speed:</strong> Fast Excel generation</li>
-                    <li><strong>File Size:</strong> Compressed output</li>
-                    <li><strong>Concurrent Processing:</strong> Multi-sheet support</li>
+                    <li><strong>Template Styles:</strong> 7 pre-defined styles</li>
+                    <li><strong>Multi-sheet Support:</strong> Unlimited sheets per file</li>
+                    <li><strong>File Validation:</strong> Korean character detection</li>
+                    <li><strong>Separate TOC:</strong> Independent table of contents</li>
                 </ul>
             </div>
             
             <div class="spec-category">
-                <h3>Configuration</h3>
+                <h3>Configuration & Variables</h3>
                 <ul>
                     <li><strong>Format:</strong> XML, JSON</li>
                     <li><strong>Validation:</strong> Built-in configuration validation</li>
-                    <li><strong>Environment:</strong> Environment variable support</li>
-                    <li><strong>Logging:</strong> Detailed execution logs</li>
+                    <li><strong>Dynamic Variables:</strong> Real-time data extraction</li>
+                    <li><strong>CLI Interface:</strong> Command-line execution</li>
                 </ul>
             </div>
             
             <div class="spec-category">
-                <h3>Excel Features</h3>
+                <h3>Database Support</h3>
                 <ul>
-                    <li><strong>Formatting:</strong> Advanced styling options</li>
-                    <li><strong>Charts:</strong> Chart generation support</li>
-                    <li><strong>Formulas:</strong> Excel formula support</li>
-                    <li><strong>Protection:</strong> Sheet protection features</li>
+                    <li><strong>SQL Server:</strong> Full support with encryption</li>
+                    <li><strong>MySQL:</strong> Complete compatibility</li>
+                    <li><strong>PostgreSQL:</strong> Full feature support</li>
+                    <li><strong>Connection Pooling:</strong> Optimized performance</li>
                 </ul>
             </div>
         </div>
@@ -216,44 +212,44 @@ include 'includes/header.php';
             <div class="use-case-card">
                 <div class="use-case-icon">📊</div>
                 <h3>Business Reporting</h3>
-                <p>Generate comprehensive business reports with multiple data sources and visualizations</p>
+                <p>Generate comprehensive business reports with multiple data sources and professional styling</p>
                 <ul>
-                    <li>Sales and revenue reports</li>
-                    <li>Customer analytics</li>
-                    <li>Performance dashboards</li>
+                    <li>Sales and revenue reports with templates</li>
+                    <li>Customer analytics with dynamic variables</li>
+                    <li>Performance dashboards with multi-sheets</li>
                 </ul>
             </div>
             
             <div class="use-case-card">
                 <div class="use-case-icon">📈</div>
                 <h3>Data Analysis</h3>
-                <p>Transform raw database data into structured Excel files for analysis</p>
+                <p>Transform raw database data into structured Excel files for analysis with enhanced formatting</p>
                 <ul>
-                    <li>Statistical analysis</li>
-                    <li>Trend identification</li>
-                    <li>Data visualization</li>
+                    <li>Statistical analysis with aggregation</li>
+                    <li>Trend identification with charts</li>
+                    <li>Data visualization with custom styles</li>
                 </ul>
             </div>
             
             <div class="use-case-card">
                 <div class="use-case-icon">📋</div>
-                <h3>Documentation</h3>
-                <p>Create documentation and reference materials from database queries</p>
+                <h3>Documentation & Reference</h3>
+                <p>Create documentation and reference materials from database queries with table of contents</p>
                 <ul>
-                    <li>Data dictionaries</li>
-                    <li>Reference tables</li>
-                    <li>Audit reports</li>
+                    <li>Data dictionaries with separate TOC</li>
+                    <li>Reference tables with validation</li>
+                    <li>Audit reports with file validation</li>
                 </ul>
             </div>
             
             <div class="use-case-card">
                 <div class="use-case-icon">🔄</div>
                 <h3>Automated Reporting</h3>
-                <p>Automate regular report generation with scheduled execution</p>
+                <p>Automate regular report generation with scheduled execution and dynamic content</p>
                 <ul>
-                    <li>Daily/weekly reports</li>
-                    <li>Automated distribution</li>
-                    <li>Template-based generation</li>
+                    <li>Daily/weekly reports with variables</li>
+                    <li>Automated distribution with CLI</li>
+                    <li>Template-based generation with styles</li>
                 </ul>
             </div>
         </div>
