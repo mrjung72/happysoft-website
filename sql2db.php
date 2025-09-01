@@ -27,7 +27,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="solution-actions">
-                    <a href="https://github.com/happysoft2018/sql2db/releases/tag" class="btn btn-primary">Download</a>
+                    <a href="https://github.com/happysoft2018/sql2db/releases/" class="btn btn-primary">Download</a>
                     <a href="sql2db-manual.php" class="btn btn-secondary">View Documentation</a>
                     <a href="https://github.com/happysoft2018/sql2db" class="btn btn-github" target="_blank">
                         <span class="github-icon">📦</span> GitHub

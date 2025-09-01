@@ -27,7 +27,7 @@ include 'includes/header_kr.php';
                     </div>
                 </div>
                 <div class="solution-actions">
-                    <a href="https://github.com/happysoft2018/sql2excel/releases/tag" class="btn btn-primary">다운로드</a>
+                    <a href="https://github.com/happysoft2018/sql2excel/releases/" class="btn btn-primary">다운로드</a>
                     <a href="sql2excel-manual_kr.php" class="btn btn-secondary">문서 보기</a>
                     <a href="https://github.com/happysoft2018/sql2excel" class="btn btn-github" target="_blank">
                         <span class="github-icon">📦</span> GitHub
