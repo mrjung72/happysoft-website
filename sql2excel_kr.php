@@ -10,7 +10,7 @@ include 'includes/header_kr.php';
         <div class="solution-hero-content">
             <div class="solution-hero-text">
                 <div class="solution-badge">📊 엑셀 생성 도구</div>
-                <h1>SQL2Excel <span class="version">v1.2.2</span></h1>
+                <h1>SQL2Excel <span class="version">v1.2.3</span></h1>
                 <p class="solution-tagline">SQL 쿼리 결과를 고급 스타일링과 템플릿이 적용된 멀티 시트 엑셀 파일로 변환하는 전문 도구 (향상된 동적 변수 지원)</p>
                 <div class="solution-stats">
                     <div class="stat">
@@ -27,7 +27,7 @@ include 'includes/header_kr.php';
                     </div>
                 </div>
                 <div class="solution-actions">
-                    <a href="https://github.com/happysoft2018/sql2excel/releases/tag/v1.2.2" class="btn btn-primary">다운로드</a>
+                    <a href="https://github.com/happysoft2018/sql2excel/releases/tag" class="btn btn-primary">다운로드</a>
                     <a href="sql2excel-manual_kr.php" class="btn btn-secondary">문서 보기</a>
                     <a href="https://github.com/happysoft2018/sql2excel" class="btn btn-github" target="_blank">
                         <span class="github-icon">📦</span> GitHub
@@ -764,7 +764,7 @@ node src/excel-cli.js export --xml queries.xml --separate-toc</code></pre>
         <div class="download-options">
             <div class="download-card featured">
                 <div class="download-header">
-                    <h3>SQL2Excel v1.2.2</h3>
+                    <h3>SQL2Excel v1.2.3</h3>
                     <div class="download-badge">최신 버전</div>
                 </div>
                 <div class="download-content">
@@ -783,10 +783,10 @@ node src/excel-cli.js export --xml queries.xml --separate-toc</code></pre>
                         <li>⚡ CLI 및 배치 도구</li>
                     </ul>
                     <div class="download-actions">
-                        <a href="https://github.com/happysoft2018/sql2excel/archive/refs/tags/v1.2.2.zip" class="btn btn-primary">
+                        <a href="https://github.com/happysoft2018/sql2excel/archive/refs/tags" class="btn btn-primary">
                             💾 ZIP 다운로드
                         </a>
-                        <a href="https://github.com/happysoft2018/sql2excel/releases/tag/v1.2.2" class="btn btn-secondary" target="_blank">
+                        <a href="https://github.com/happysoft2018/sql2excel/releases/tag" class="btn btn-secondary" target="_blank">
                             📦 GitHub 릴리즈
                         </a>
                     </div>
@@ -803,7 +803,7 @@ node src/excel-cli.js export --xml queries.xml --separate-toc</code></pre>
                         <a href="https://github.com/happysoft2018/sql2excel" class="btn btn-github" target="_blank">
                             📦 GitHub 저장소
                         </a>
-                        <a href="https://github.com/happysoft2018/sql2excel/archive/refs/tags/v1.2.2.zip" class="btn btn-outline" target="_blank">
+                        <a href="https://github.com/happysoft2018/sql2excel/archive/refs/tags/v1.2.3.zip" class="btn btn-outline" target="_blank">
                             📋 소스 다운로드
                         </a>
                     </div>

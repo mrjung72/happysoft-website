@@ -10,7 +10,7 @@ include 'includes/header_kr.php';
         <div class="solution-hero-content">
             <div class="solution-hero-text">
                 <div class="solution-badge">🔄 데이터 마이그레이션</div>
-                <h1>SQL2DB <span class="version">v2.3.0</span></h1>
+                <h1>SQL2DB <span class="version">v2.7.1</span></h1>
                 <p class="solution-tagline">실시간 모니터링, 고급 변수 시스템, 지능형 SQL 처리를 갖춘 전문적인 SQL 데이터 마이그레이션 도구</p>
                 <div class="solution-stats">
                     <div class="stat">
@@ -27,7 +27,7 @@ include 'includes/header_kr.php';
                     </div>
                 </div>
                 <div class="solution-actions">
-                    <a href="https://github.com/happysoft2018/sql2db/releases/tag/v2.3.0" class="btn btn-primary">다운로드</a>
+                    <a href="https://github.com/happysoft2018/sql2db/releases/tag" class="btn btn-primary">다운로드</a>
                     <a href="sql2db-manual_kr.php" class="btn btn-secondary">문서 보기</a>
                     <a href="https://github.com/happysoft2018/sql2db" class="btn btn-github" target="_blank">
                         <span class="github-icon">📦</span> GitHub

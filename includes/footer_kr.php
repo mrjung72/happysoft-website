@@ -63,7 +63,7 @@
                     <div class="copyright">
                         <p>&copy; <?= date('Y') ?> HappySoft. All rights reserved.</p>
                         <p class="version-info">
-                            SQL2DB v2.3.0 | SQL2Excel v1.2.2 | 
+                            SQL2DB v2.7.1 | SQL2Excel v1.2.3 | 
                             <span class="update-date">최종 업데이트: <?= date('Y-m-d') ?></span>
                         </p>
                     </div>

@@ -10,7 +10,7 @@ include 'includes/header.php';
         <div class="solution-hero-content">
             <div class="solution-hero-text">
                 <div class="solution-badge">🔄 Data Migration</div>
-                <h1>SQL2DB <span class="version">v2.3.0</span></h1>
+                <h1>SQL2DB <span class="version">v2.7.1</span></h1>
                 <p class="solution-tagline">Professional SQL data migration tool with real-time monitoring, advanced variable system, and intelligent SQL processing</p>
                 <div class="solution-stats">
                     <div class="stat">
@@ -27,7 +27,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="solution-actions">
-                    <a href="https://github.com/happysoft2018/sql2db/releases/tag/v2.3.0" class="btn btn-primary">Download</a>
+                    <a href="https://github.com/happysoft2018/sql2db/releases/tag" class="btn btn-primary">Download</a>
                     <a href="sql2db-manual.php" class="btn btn-secondary">View Documentation</a>
                     <a href="https://github.com/happysoft2018/sql2db" class="btn btn-github" target="_blank">
                         <span class="github-icon">📦</span> GitHub

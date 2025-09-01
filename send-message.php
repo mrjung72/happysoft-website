@@ -259,11 +259,11 @@ function getAutoReplyTemplate($data, $config) {
                 <h3>🚀 주요 솔루션</h3>
                 <div class='solutions'>
                     <div class='solution'>
-                        <strong>🔄 SQL2DB v2.3.0</strong><br>
+                        <strong>🔄 SQL2DB v2.7.1</strong><br>
                         실시간 모니터링과 고급 변수 시스템을 갖춘 데이터 마이그레이션 도구
                     </div>
                     <div class='solution'>
-                        <strong>📊 SQL2Excel v1.2.2</strong><br>
+                        <strong>📊 SQL2Excel v1.2.3</strong><br>
                         멀티 시트, 스타일링, 자동 목차 기능을 제공하는 엑셀 생성 도구
                     </div>
                 </div>

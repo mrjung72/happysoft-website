@@ -10,7 +10,7 @@ include 'includes/header.php';
         <div class="solution-hero-content">
             <div class="solution-hero-text">
                 <div class="solution-badge">📊 Excel Generation Tool</div>
-                <h1>SQL2Excel <span class="version">v1.2.2</span></h1>
+                <h1>SQL2Excel <span class="version">v1.2.3</span></h1>
                 <p class="solution-tagline">Professional tool for converting SQL query results into advanced styled and templated multi-sheet Excel files with enhanced dynamic variables</p>
                 <div class="solution-stats">
                     <div class="stat">
@@ -27,7 +27,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="solution-actions">
-                    <a href="https://github.com/happysoft2018/sql2excel/releases/tag/v1.2.2" class="btn btn-primary">Download</a>
+                    <a href="https://github.com/happysoft2018/sql2excel/releases/tag" class="btn btn-primary">Download</a>
                     <a href="sql2excel-manual.php" class="btn btn-secondary">View Documentation</a>
                     <a href="https://github.com/happysoft2018/sql2excel" class="btn btn-github" target="_blank">
                         <span class="github-icon">📦</span> GitHub
