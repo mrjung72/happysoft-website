@@ -143,10 +143,11 @@ include 'includes/header.php';
             
             <div class="feature-card">
                 <div class="feature-icon">🔗</div>
-                <h3>Multiple Database Support</h3>
-                <p>Connect to various database systems and execute queries from different sources</p>
+                <h3>SQL Server Database Support</h3>
+                <p>Connect to SQL Server database systems and execute queries from different sources</p>
+                <p>(More database will be added in the future ...)</p>
                 <ul class="feature-details">
-                    <li>SQL Server, MySQL, PostgreSQL</li>
+                    <li>SQL Server</li>
                     <li>Connection pooling</li>
                     <li>Transaction support</li>
                     <li>Error handling</li>
@@ -195,9 +196,9 @@ include 'includes/header.php';
                 <h3>Database Support</h3>
                 <ul>
                     <li><strong>SQL Server:</strong> Full support with encryption</li>
-                    <li><strong>MySQL:</strong> Complete compatibility</li>
-                    <li><strong>PostgreSQL:</strong> Full feature support</li>
-                    <li><strong>Connection Pooling:</strong> Optimized performance</li>
+                    <li><strong>Connection Pooling:</strong></li>
+                    <li><strong>Transaction Support</strong></li>
+                    <li><strong>Exception Handling</strong></li>
                 </ul>
             </div>
         </div>

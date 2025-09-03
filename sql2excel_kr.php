@@ -143,10 +143,10 @@ include 'includes/header_kr.php';
             
             <div class="feature-card">
                 <div class="feature-icon">🔗</div>
-                <h3>다중 데이터베이스 지원</h3>
-                <p>다양한 데이터베이스 시스템에 연결하여 서로 다른 소스의 쿼리 실행</p>
+                <h3>SQL Server 데이터베이스 지원</h3>
+                <p>서로 다른 SQL Server 데이터베이스 소스의 쿼리 실행</p>
                 <ul class="feature-details">
-                    <li>SQL Server, MySQL, PostgreSQL</li>
+                    <li>SQL Server</li>
                     <li>연결 풀링</li>
                     <li>트랜잭션 지원</li>
                     <li>오류 처리</li>
@@ -403,16 +403,11 @@ include 'includes/header_kr.php';
                         <span class="spec-value">암호화 포함 전체 지원</span>
                     </div>
                     <div class="spec-item">
-                        <span class="spec-label">MySQL</span>
-                        <span class="spec-value">완전한 호환성</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">PostgreSQL</span>
-                        <span class="spec-value">전체 기능 지원</span>
-                    </div>
-                    <div class="spec-item">
                         <span class="spec-label">연결 풀링</span>
                         <span class="spec-value">최적화된 성능</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">트랜잭션 지원</span>
                     </div>
                 </div>
             </div>
