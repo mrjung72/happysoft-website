@@ -6,8 +6,8 @@
     <title><?= isset($pageTitle) ? $pageTitle : 'HappySoft - Developer Solutions Portfolio' ?></title>
     
     <!-- Meta Tags -->
-    <meta name="description" content="Professional developer solutions for SQL data migration, Excel generation, database tools, and utility applications. Enterprise-ready Node.js, Vue.js, and Express.js solutions.">
-    <meta name="keywords" content="SQL data migration, Excel generation, Node.js tools, Vue.js development, Express server, database utilities, MSSQL tools, CLI applications, data processing, developer tools, enterprise solutions, data export, SQL to Excel, database migration, utility software, web development, backend development, API development, data transformation, business intelligence tools, automation tools">
+    <meta name="description" content="SQL to Excel, query to excel, excel generation, db migration, sql to db, query to db, sql2db, query2db, sql2excel, query2excel">
+    <meta name="keywords" content="SQL to Excel, query to excel, excel generation, db migration, sql to db, query to db, sql2db, query2db, sql2excel, query2excel">
     <meta name="author" content="HappySoft">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">

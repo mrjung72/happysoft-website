@@ -6,8 +6,8 @@
     <title><?= isset($pageTitle) ? $pageTitle : 'HappySoft - 개발자 솔루션 포트폴리오' ?></title>
     
     <!-- Meta Tags -->
-    <meta name="description" content="SQL 데이터 마이그레이션, 엑셀 생성, 데이터베이스 도구, 유틸리티 애플리케이션을 위한 전문 개발자 솔루션. 엔터프라이즈급 Node.js, Vue.js, Express.js 솔루션을 제공합니다.">
-    <meta name="keywords" content="SQL 데이터 마이그레이션, 엑셀 생성, Node.js 도구, Vue.js 개발, Express 서버, 데이터베이스 유틸리티, MSSQL 도구, CLI 애플리케이션, 데이터 처리, 개발자 도구, 엔터프라이즈 솔루션, 데이터 내보내기, SQL to Excel, 데이터베이스 마이그레이션, 유틸리티 소프트웨어, 웹 개발, 백엔드 개발, API 개발, 데이터 변환, 비즈니스 인텔리전스 도구, 자동화 도구">
+    <meta name="description" content="SQL to Excel, query to excel, excel generation, db migration, sql to db, query to db, sql2db, query2db, sql2excel, query2excel">
+    <meta name="keywords" content="SQL to Excel, query to excel, excel generation, db migration, sql to db, query to db, sql2db, query2db, sql2excel, query2excel">
     <meta name="author" content="HappySoft">
     <meta name="robots" content="index, follow">
     <meta name="language" content="Korean">
