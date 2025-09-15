@@ -55,7 +55,7 @@ include 'includes/header_kr.php';
                 <ul>
                     <li><a href="#template-styles">템플릿 스타일</a></li>
                     <li><a href="#dynamic-variables">동적 변수</a></li>
-                    <li><a href="#separate-toc">별도 목차 시트</a></li>
+                    <li><a href="#separate-toc">목차 시트</a></li>
                 </ul>
             </div>
             
@@ -354,11 +354,11 @@ npm install</code></pre>
             
             <div class="feature-card">
                 <div class="feature-icon">📋</div>
-                <h3>별도 목차 생성</h3>
-                <p>독립적인 목차 시트 생성하여 보고서 관리 효율성을 향상시킵니다.</p>
+                <h3>목차 시트 생성</h3>
+                <p>목차 시트 생성하여 보고서 관리 효율성을 향상시킵니다.</p>
                 <ul>
-                    <li>시트별 데이터 건수 표시</li>
-                    <li>XML/CLI 옵션 제어</li>
+                    <li>시트별 데이터 건수 표시 (템플릿 사용 가능)</li>
+                    <li>시트별 적용 SQL쿼리문 표시</li>
                 </ul>
             </div>
             

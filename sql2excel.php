@@ -110,8 +110,8 @@ include 'includes/header.php';
                 <h3>Table of Contents</h3>
                 <p>Generate independent table of contents Sheet for enhanced report management and sharing</p>
                 <ul class="feature-details">
-                    <li>Sheet-specific record count display</li>
-                    <li>XML/CLI option control</li>
+                    <li>Sheet-specific record count display (template available)</li>
+                    <li>Sheet-specific applied SQL query display</li>
                 </ul>
             </div>
             

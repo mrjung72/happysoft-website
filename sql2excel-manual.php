@@ -55,7 +55,7 @@ include 'includes/header.php';
                 <ul>
                     <li><a href="#template-styles">Template Styles</a></li>
                     <li><a href="#dynamic-variables">Dynamic Variables</a></li>
-                    <li><a href="#separate-toc">TOC Sheet</a></li>
+                    <li><a href="#separate-toc">Table of Contents Sheet</a></li>
                 </ul>
             </div>
             
@@ -354,16 +354,14 @@ npm install</code></pre>
             
             <div class="feature-card">
                 <div class="feature-icon">📋</div>
-                <h3>Separate Table of Contents</h3>
-                <p>Enhances report management efficiency by generating independent TOC Excel files.</p>
-                <ul>
-                    <li>Automatic TOC file generation</li>
-                    <li>Timestamped filenames</li>
-                    <li>Sheet-specific record count display</li>
-                    <li>XML/CLI option control</li>
+                <h3>Table of Contents</h3>
+                <p>Generate table of contents Sheet for enhanced report management and sharing</p>
+                <ul class="feature-details">
+                    <li>Sheet-specific record count display (template available)</li>
+                    <li>Sheet-specific applied SQL query display</li>
                 </ul>
             </div>
-            
+
             <div class="feature-card">
                 <div class="feature-icon">🔍</div>
                 <h3>File Validation System</h3>

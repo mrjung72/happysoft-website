@@ -110,8 +110,8 @@ include 'includes/header_kr.php';
                 <h3>목차 시트 생성</h3>
                 <p>향상된 보고서 관리와 공유를 위한 목차 시트 생성</p>
                 <ul class="feature-details">
-                    <li>시트별 레코드 수 표시</li>
-                    <li>XML/CLI 옵션 제어</li>
+                    <li>시트별 레코드 수 표시 (템플릿 사용 가능)</li>
+                    <li>시트별 적용 SQL쿼리문 표시</li>
                 </ul>
             </div>
             
@@ -728,19 +728,6 @@ npm run test-db</code></pre>
 &lt;/sheet&gt;</code></pre>
                 </div>
                 
-                <h3>목차 시트 생성</h3>
-                <div class="code-block">
-                    <div class="code-header">
-                        <span class="code-lang">xml</span>
-                        <button class="copy-btn" onclick="copyCode(this)">복사</button>
-                    </div>
-                    <pre><code>&lt;!-- XML에서 별도 목차 설정 --&gt;
-&lt;queries separateToc="true"&gt;
-  &lt;excel db="sampleDB" output="output/Report.xlsx" separateToc="true"&gt;
-
-&lt;!-- CLI에서 별도 목차 생성 --&gt;
-node src/excel-cli.js export --xml queries.xml --separate-toc</code></pre>
-                </div>
             </div>
         </div>
     </div>
