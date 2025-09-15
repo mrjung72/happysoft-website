@@ -55,7 +55,6 @@ include 'includes/header_kr.php';
                 <ul>
                     <li><a href="#template-styles">템플릿 스타일</a></li>
                     <li><a href="#dynamic-variables">동적 변수</a></li>
-                    <li><a href="#separate-toc">별도 목차</a></li>
                 </ul>
             </div>
             
@@ -96,7 +95,6 @@ include 'includes/header_kr.php';
                     <li><strong>템플릿 스타일 시스템</strong>: 일관된 디자인을 위한 사전 정의된 Excel 스타일링 템플릿</li>
                     <li><strong>다중 DB 연결</strong>: 각 시트마다 다른 데이터베이스 연결 사용</li>
                     <li><strong>향상된 동적 변수</strong>: 실시간 데이터베이스에서 값을 추출하여 고급 처리</li>
-                    <li><strong>별도 목차 생성</strong>: 독립적인 목차 Excel 파일 생성</li>
                     <li><strong>파일 검증</strong>: 자동 파일명 검증 및 한글 문자 경고</li>
                 </ul>
             </div>
@@ -226,17 +224,6 @@ npm install</code></pre>
                     </div>
                     
                     <div class="command-card">
-                        <h4>별도 목차 생성</h4>
-                        <div class="code-block">
-                            <div class="code-header">
-                                <span class="code-lang">bash</span>
-                                <button class="copy-btn" onclick="copyCode(this)">복사</button>
-                            </div>
-                            <pre><code>node src/excel-cli.js export --xml ./queries/sample-queries.xml --separate-toc</code></pre>
-                        </div>
-                    </div>
-                    
-                    <div class="command-card">
                         <h4>사용 가능한 스타일 목록</h4>
                         <div class="code-block">
                             <div class="code-header">
@@ -257,7 +244,7 @@ npm install</code></pre>
                         <button class="copy-btn" onclick="copyCode(this)">복사</button>
                     </div>
                     <pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;queries separateToc="true" maxRows="10000"&gt;
+&lt;queries maxRows="10000"&gt;
   &lt;!-- 엑셀 파일 설정 --&gt;
   &lt;excel db="sampleDB" output="output/보고서.xlsx" style="modern"&gt;
     &lt;header&gt;
@@ -302,7 +289,6 @@ npm install</code></pre>
     "db": "sampleDB",
     "output": "output/보고서.xlsx",
     "style": "modern",
-    "separateToc": true,
     "header": {
       "font": { "name": "맑은 고딕", "size": 12, "color": "FFFFFF", "bold": true },
       "fill": { "color": "4F81BD" },
@@ -362,18 +348,6 @@ npm install</code></pre>
                     <li>key_value_pairs 타입</li>
                     <li>실행 전 변수 처리</li>
                     <li>디버그 모드 지원</li>
-                </ul>
-            </div>
-            
-            <div class="feature-card">
-                <div class="feature-icon">📋</div>
-                <h3>별도 목차 생성</h3>
-                <p>독립적인 목차 Excel 파일을 생성하여 보고서 관리 효율성을 향상시킵니다.</p>
-                <ul>
-                    <li>자동 목차 파일 생성</li>
-                    <li>타임스탬프 포함 파일명</li>
-                    <li>시트별 데이터 건수 표시</li>
-                    <li>XML/CLI 옵션 제어</li>
                 </ul>
             </div>
             

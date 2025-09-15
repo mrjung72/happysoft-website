@@ -104,19 +104,6 @@ include 'includes/header.php';
                     <li>Error handling and empty result replacement</li>
                 </ul>
             </div>
-            
-            <div class="feature-card">
-                <div class="feature-icon">📋</div>
-                <h3>Separate Table of Contents</h3>
-                <p>Generate independent table of contents Excel files for enhanced report management and sharing</p>
-                <ul class="feature-details">
-                    <li>Automatic separate TOC file generation</li>
-                    <li>Sheet-specific record count display</li>
-                    <li>Timestamped filenames</li>
-                    <li>XML/CLI option control</li>
-                </ul>
-            </div>
-            
             <div class="feature-card">
                 <div class="feature-icon">🔍</div>
                 <h3>File Validation System</h3>
@@ -178,7 +165,6 @@ include 'includes/header.php';
                     <li><strong>Template Styles:</strong> 7 pre-defined styles</li>
                     <li><strong>Multi-sheet Support:</strong> Unlimited sheets per file</li>
                     <li><strong>File Validation:</strong> Korean character detection</li>
-                    <li><strong>Separate TOC:</strong> Independent table of contents</li>
                 </ul>
             </div>
             
@@ -237,7 +223,6 @@ include 'includes/header.php';
                 <h3>Documentation & Reference</h3>
                 <p>Create documentation and reference materials from database queries with table of contents</p>
                 <ul>
-                    <li>Data dictionaries with separate TOC</li>
                     <li>Reference tables with validation</li>
                     <li>Audit reports with file validation</li>
                 </ul>

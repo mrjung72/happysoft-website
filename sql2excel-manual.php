@@ -55,7 +55,6 @@ include 'includes/header.php';
                 <ul>
                     <li><a href="#template-styles">Template Styles</a></li>
                     <li><a href="#dynamic-variables">Dynamic Variables</a></li>
-                    <li><a href="#separate-toc">Separate TOC</a></li>
                 </ul>
             </div>
             
@@ -96,7 +95,6 @@ include 'includes/header.php';
                     <li><strong>Template Style System</strong>: Pre-defined Excel styling templates for consistent design</li>
                     <li><strong>Multiple DB Connections</strong>: Use different database connections for each sheet</li>
                     <li><strong>Enhanced Dynamic Variables</strong>: Extract values from database in real-time for advanced processing</li>
-                    <li><strong>Separate TOC Generation</strong>: Generate independent table of contents Excel files</li>
                     <li><strong>File Validation</strong>: Automatic filename validation and Korean character warnings</li>
                 </ul>
             </div>
@@ -226,17 +224,6 @@ npm install</code></pre>
                     </div>
                     
                     <div class="command-card">
-                        <h4>Generate Separate TOC</h4>
-                        <div class="code-block">
-                            <div class="code-header">
-                                <span class="code-lang">bash</span>
-                                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-                            </div>
-                            <pre><code>node src/excel-cli.js export --xml ./queries/sample-queries.xml --separate-toc</code></pre>
-                        </div>
-                    </div>
-                    
-                    <div class="command-card">
                         <h4>List Available Styles</h4>
                         <div class="code-block">
                             <div class="code-header">
@@ -257,7 +244,7 @@ npm install</code></pre>
                         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
                     </div>
                     <pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;queries separateToc="true" maxRows="10000"&gt;
+&lt;queries maxRows="10000"&gt;
   &lt;!-- Excel file configuration --&gt;
   &lt;excel db="sampleDB" output="output/report.xlsx" style="modern"&gt;
     &lt;header&gt;
@@ -302,7 +289,6 @@ npm install</code></pre>
     "db": "sampleDB",
     "output": "output/report.xlsx",
     "style": "modern",
-    "separateToc": true,
     "header": {
       "font": { "name": "Arial", "size": 12, "color": "FFFFFF", "bold": true },
       "fill": { "color": "4F81BD" },

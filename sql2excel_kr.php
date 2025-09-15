@@ -106,18 +106,6 @@ include 'includes/header_kr.php';
             </div>
             
             <div class="feature-card">
-                <div class="feature-icon">📋</div>
-                <h3>별도 목차 생성</h3>
-                <p>향상된 보고서 관리와 공유를 위한 독립적인 목차 엑셀 파일 생성</p>
-                <ul class="feature-details">
-                    <li>자동 별도 목차 파일 생성</li>
-                    <li>시트별 레코드 수 표시</li>
-                    <li>타임스탬프 파일명</li>
-                    <li>XML/CLI 옵션 제어</li>
-                </ul>
-            </div>
-            
-            <div class="feature-card">
                 <div class="feature-icon">🔍</div>
                 <h3>파일 검증 시스템</h3>
                 <p>안정적인 실행 환경을 위한 자동 파일명 검증 및 한글 문자 경고</p>
@@ -493,9 +481,6 @@ node src/excel-cli.js export --xml ./queries/sample-queries.xml
 # 템플릿 스타일 사용
 node src/excel-cli.js export --xml ./queries/sample-queries.xml --style modern
 
-# 별도 목차 파일 생성
-node src/excel-cli.js export --xml ./queries/sample-queries.xml --separate-toc
-
 # 변수와 함께 실행
 node src/excel-cli.js export --xml ./queries/report.xml \
   --var "year=2024" --var "quarter=Q1"
@@ -531,9 +516,9 @@ npm run test-db</code></pre>
                         <button class="copy-btn" onclick="copyCode(this)">복사</button>
                     </div>
                     <pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;queries separateToc="true" maxRows="10000"&gt;
+&lt;queries maxRows="10000"&gt;
   &lt;!-- 엑셀 파일 설정 --&gt;
-  &lt;excel db="sampleDB" output="output/매출보고서_2024.xlsx" style="modern" separateToc="true"&gt;
+  &lt;excel db="sampleDB" output="output/매출보고서_2024.xlsx" style="modern"&gt;
     &lt;header&gt;
       &lt;font name="맑은 고딕" size="12" color="FFFFFF" bold="true"/&gt;
       &lt;fill color="4F81BD"/&gt;
@@ -623,7 +608,6 @@ npm run test-db</code></pre>
     "db": "sampleDB",
     "output": "output/매출보고서_2024.xlsx",
     "style": "modern",
-    "separateToc": true,
     "maxRows": 10000,
     "header": {
       "font": { "name": "맑은 고딕", "size": 12, "color": "FFFFFF", "bold": true },
@@ -734,19 +718,6 @@ npm run test-db</code></pre>
 &lt;/sheet&gt;</code></pre>
                 </div>
                 
-                <h3>별도 목차 생성</h3>
-                <div class="code-block">
-                    <div class="code-header">
-                        <span class="code-lang">xml</span>
-                        <button class="copy-btn" onclick="copyCode(this)">복사</button>
-                    </div>
-                    <pre><code>&lt;!-- XML에서 별도 목차 설정 --&gt;
-&lt;queries separateToc="true"&gt;
-  &lt;excel db="sampleDB" output="output/Report.xlsx" separateToc="true"&gt;
-
-&lt;!-- CLI에서 별도 목차 생성 --&gt;
-node src/excel-cli.js export --xml queries.xml --separate-toc</code></pre>
-                </div>
             </div>
         </div>
     </div>
@@ -770,7 +741,6 @@ node src/excel-cli.js export --xml queries.xml --separate-toc</code></pre>
                     <ul class="version-features">
                         <li>✨ 7가지 템플릿 스타일 시스템</li>
                         <li>🔄 향상된 동적 변수 (key-value pairs)</li>
-                        <li>📋 별도 목차 생성 기능</li>
                         <li>🔍 파일 검증 및 한글 경고</li>
                         <li>🎯 시트별 스타일링 지원</li>
                         <li>📊 멀티 시트 엑셀 생성</li>
