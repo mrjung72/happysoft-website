@@ -176,7 +176,7 @@ include 'includes/header.php';
                     <li><strong>Template Styles:</strong> 7 pre-defined styles</li>
                     <li><strong>Multi-sheet Support:</strong> Unlimited sheets per file</li>
                     <li><strong>File Validation:</strong> Korean character detection</li>
-                    <li><strong>Separate TOC:</strong> Independent table of contents Sheet</li>
+                    <li><strong>Separate TOC:</strong> Table of contents Sheet</li>
                 </ul>
             </div>
             
@@ -235,7 +235,7 @@ include 'includes/header.php';
                 <h3>Documentation & Reference</h3>
                 <p>Create documentation and reference materials from database queries with table of contents</p>
                 <ul>
-                    <li>Data dictionaries with separate TOC</li>
+                    <li>Data dictionaries with TOC</li>
                     <li>Reference tables with validation</li>
                     <li>Audit reports with file validation</li>
                 </ul>
