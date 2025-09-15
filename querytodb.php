@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "SQL2DB - Data Migration Solution";
+$pageTitle = "QueryToDB - Data Migration Solution";
 $currentPage = "sql2db";
 
 include 'includes/header.php';

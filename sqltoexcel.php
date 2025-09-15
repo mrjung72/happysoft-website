@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "SQL2Excel - Excel Generation Solution";
+$pageTitle = "SQLToExcel - Excel Generation Solution";
 $currentPage = "sql2excel";
 
 include 'includes/header.php';
