@@ -96,7 +96,7 @@ include 'includes/header.php';
                     <li><strong>Template Style System</strong>: Pre-defined Excel styling templates for consistent design</li>
                     <li><strong>Multiple DB Connections</strong>: Use different database connections for each sheet</li>
                     <li><strong>Enhanced Dynamic Variables</strong>: Extract values from database in real-time for advanced processing</li>
-                    <li><strong>Separate TOC Generation</strong>: Generate independent table of contents Excel files</li>
+                    <li><strong>Separate TOC Generation</strong>: Generate independent table of contents Sheet</li>
                     <li><strong>File Validation</strong>: Automatic filename validation and Korean character warnings</li>
                 </ul>
             </div>

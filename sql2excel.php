@@ -107,12 +107,10 @@ include 'includes/header.php';
             
             <div class="feature-card">
                 <div class="feature-icon">📋</div>
-                <h3>Separate Table of Contents</h3>
-                <p>Generate independent table of contents Excel files for enhanced report management and sharing</p>
+                <h3>Table of Contents</h3>
+                <p>Generate independent table of contents Sheet for enhanced report management and sharing</p>
                 <ul class="feature-details">
-                    <li>Automatic separate TOC file generation</li>
                     <li>Sheet-specific record count display</li>
-                    <li>Timestamped filenames</li>
                     <li>XML/CLI option control</li>
                 </ul>
             </div>
@@ -178,7 +176,7 @@ include 'includes/header.php';
                     <li><strong>Template Styles:</strong> 7 pre-defined styles</li>
                     <li><strong>Multi-sheet Support:</strong> Unlimited sheets per file</li>
                     <li><strong>File Validation:</strong> Korean character detection</li>
-                    <li><strong>Separate TOC:</strong> Independent table of contents</li>
+                    <li><strong>Separate TOC:</strong> Independent table of contents Sheet</li>
                 </ul>
             </div>
             

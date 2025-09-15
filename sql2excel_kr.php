@@ -734,7 +734,7 @@ npm run test-db</code></pre>
 &lt;/sheet&gt;</code></pre>
                 </div>
                 
-                <h3>별도 목차 생성</h3>
+                <h3>목차 시트 생성</h3>
                 <div class="code-block">
                     <div class="code-header">
                         <span class="code-lang">xml</span>
